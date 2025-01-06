@@ -1,11 +1,9 @@
-import = [
-    "~/.config/alacritty/themes/themes/one_dark.toml"
-]
+general.import = ["~/.config/alacritty/themes/themes/tango_dark.toml"]
 
-#[colors.primary]
-#background = "#000000"
+[colors.primary]
+background = "#000000"
 
-[shell]
+[terminal.shell]
 program = "/usr/local/bin/tmux"
 args = ["new-session", "-A"]
 
@@ -45,3 +43,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
 [window]
 decorations = "none"
+
+[window.dimensions]
+columns = 180
+lines = 80
