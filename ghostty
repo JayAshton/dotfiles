@@ -1,0 +1,2 @@
+theme = Solarized Dark Higher Contrast
+command = /usr/local/bin/tmux new-session -A
