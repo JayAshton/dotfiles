@@ -1,6 +1,7 @@
-theme = Solarized Dark Higher Contrast
+theme = Builtin Tango Dark
 command = /usr/local/bin/tmux new-session -A
 confirm-close-surface = false
 window-decoration = false
 window-padding-color = background
 font-thicken = true
+bold-is-bright = true
